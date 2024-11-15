@@ -1,10 +1,14 @@
 :root{
+    cursor: none;
     --bg1-color: #f2f2fc;
     --bg2-color: #fdf9ff;
     --bg3-color: #e8dfec;
     --text1-color: #302e4d;
     --text2-color: #504e70; 
     --skin-color: #ec1839;
+}
+:root,a{
+    cursor: none;
 }
 .dark-theme{
     --bg1-color: #151515;
@@ -180,6 +184,7 @@ ul{
     font-size: 16px;
     font-weight: 600;
     display: block;
+    cursor: none;
     border-bottom: 1px solid var(--bg3-color);
     color: var(--text1-color);
     padding: 5px 15px;
@@ -1740,4 +1745,34 @@ a{
 }
 .active2{
     color: var(--skin-color) !important;
+}
+
+/*cursor*/
+
+.cursor-dot,
+.cursor-dot-outline {
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease-in-out,
+                transform 0.3s ease-in-out;
+	z-index: 10000;
+}
+
+.cursor-dot {
+    --size-cursor-dot: 8px;
+    width: var(--size-cursor-dot);
+    height: var(--size-cursor-dot);
+    background-color: #ec1838a7;
+}
+
+.cursor-dot-outline {
+    --size-cursor-dot-outline: 40px;
+    width: var(--size-cursor-dot-outline);
+    height: var(--size-cursor-dot-outline);
+    background-color: #ec183827;
 }
