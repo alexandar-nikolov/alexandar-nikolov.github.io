@@ -562,8 +562,8 @@ h3.about-short{
 }
 .hero7{
     height: 18rem;
-    background: url(../images/reading.jpg) no-repeat center center / cover;
     border-radius: 30px;
+    background: url(../images/backgroud_guide.JPG);
     align-items: center;
     display: flex;
     justify-content: center;
@@ -571,7 +571,6 @@ h3.about-short{
 }
 .hero6{
     height: 40rem;
-    background: url(../pictures/development.jpg) no-repeat center center / cover;
     border-radius: 30px;
     align-items: center;
     display: flex;
@@ -580,7 +579,6 @@ h3.about-short{
 }
 .hero5{
     height: 18rem;
-    background: url(../images/ps.jpg) no-repeat center center / cover;
     border-radius: 30px;
     align-items: center;
     display: flex;
@@ -589,7 +587,6 @@ h3.about-short{
 }
 .hero4{
     height: 18rem;
-    background: url(../images/git.jpg) no-repeat center center / cover;
     border-radius: 30px;
     align-items: center;
     display: flex;
@@ -598,7 +595,6 @@ h3.about-short{
 }
 .hero3{
     height: 18rem;
-    background: url(../images/media.jpg) no-repeat center center / cover;
     border-radius: 30px;
     align-items: center;
     display: flex;
@@ -607,7 +603,6 @@ h3.about-short{
 }
 .hero2{
     height: 18rem;
-    background: url(../images/leadership.jpg) no-repeat center center / cover;
     border-radius: 30px;
     align-items: center;
     display: flex;
@@ -616,7 +611,6 @@ h3.about-short{
 }
 .hero{
     height: 18rem;
-    background: url(../images/ci.jpg) no-repeat center center / cover;
     border-radius: 30px;
     align-items: center;
     display: flex;
@@ -916,7 +910,7 @@ font-size: 25px;
   .main article.profile .img-container {
     width: 4.5rem;
     height: 4.5rem;
-    background: url(../images/pf.jpg) no-repeat center center / cover;
+    background: url(../images/aleksandar.jpg) no-repeat center center / cover;
     border-radius: 0.5rem;
   }
   
