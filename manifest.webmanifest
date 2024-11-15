@@ -1,0 +1,10 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SchemaStore/schemastore/refs/heads/master/src/schemas/json/web-manifest.json",
+    "name": "Aleksandar Nikolov Portfolio",
+    "short_name": "Aleksandar Nikolov",
+    "description": "Aleksandar Nikolov Portfolio",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#eee"
+}
