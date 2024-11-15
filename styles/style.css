@@ -579,6 +579,7 @@ h3.about-short{
 }
 .hero5{
     height: 18rem;
+    background: url(../images/ps.jpg) no-repeat center center / cover;
     border-radius: 30px;
     align-items: center;
     display: flex;
@@ -587,6 +588,7 @@ h3.about-short{
 }
 .hero4{
     height: 18rem;
+    background: url(../images/git.jpg) no-repeat center center / cover;
     border-radius: 30px;
     align-items: center;
     display: flex;
@@ -595,6 +597,7 @@ h3.about-short{
 }
 .hero3{
     height: 18rem;
+    background: url(../images/media.jpg) no-repeat center center / cover;
     border-radius: 30px;
     align-items: center;
     display: flex;
@@ -611,6 +614,7 @@ h3.about-short{
 }
 .hero{
     height: 18rem;
+    background: url(../images/ci.jpg) no-repeat center center / cover;
     border-radius: 30px;
     align-items: center;
     display: flex;
@@ -826,6 +830,7 @@ font-size: 25px;
 }
 .image3{
     width: 100%;
+    margin-left: 20px;
 }
 .conclusion2{
     margin-top: 0 !important;
