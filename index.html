@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thijs van den Broek</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="titleicon" href="images/t.webp"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="manifest" href="manifest.webmanifest">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="app.js" defer></script>
+  </head>
+  <body>
+    <img src="images/icon-192x192.png" alt="">
+    <script>
+     (function() {
+      const savedMode = localStorage.getItem('darkMode');
+      const isDarkMode = savedMode === 'dark';
+      document.documentElement.classList.toggle('dark-theme', isDarkMode);
+    })();
+    </script>
+    
+    <main class="container-main">
+      <aside class="aside">
+        <div class="logo">
+          <a href="#"><span>T</span>hijs</a>
+        </div>
+        <div class="toggle">
+          <span></span>
+        </div>
+        <nav class="nav">
+          <ul>
+            <li>
+              <a href="#home" id="homeNav" class="active"><i class="fa fa-home"></i>Home</a>
+            </li>
+            <li>
+              <a href="#read"><i class="fa fa-book"></i>Reading guide</a>
+            </li>
+            <li>
+              <a href="#about"><i class="fa fa-user"></i>About</a>
+            </li>
+            <li id="outcome" class="tooltip">
+              <a href="#outcomes"><i class="fa fa-list"></i>Outcomes ▾</a>
+              <ul class="dropdown">
+                <a href="lo/imp.html">interactive media products</a>
+                <a href="lo/tp.html">Transferable production</a>
+                <a href="lo/ci.html">Creative iterations</a>
+                <a href="lo/ps.html">Professional standards</a>
+                <a href="lo/pl.html">Personal leadership</a>
+              </ul>
+            </li>
+            <li id="project" class="tooltip2">
+              <a href="#projects"><i class="fa fa-list"></i>Projects ▾</a>
+              <ul class="dropdown">
+                <li>
+                  <a href="html-projects/passion.html">passion projects</a>
+                </li>
+                <li>
+                  <a href="html-projects/mproject.html">project facial recognition</a>
+                </li>
+                <li><a href="html-projects/project.html">Branding project</a></li>
+                <li><a href="html-projects/future.html">The future</a></li>
+                <li><a href="html-projects/portfolio.html">Portfolio development</a></li>
+                <li>
+                  <a href="html-projects/Development.html">Development workshops</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <div class="socials">
+          <a
+            href="https://www.instagram.com/thijsvdbroek27?igsh=MWZibjB6NzdxNHJ0cw=="
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://www.facebook.com/thijs.vandenbroek.94"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://www.youtube.com/channel/UCBW35VZHEL9annDyu3Ci5MQ"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+          <a target="_blank" href="https://git.fhict.nl/I523591/paragon"
+          ><i class="fa-brands fa-square-gitlab"></i></a>
+        </div>
+        <div class="download">
+        <button class="face button tooltip3" id="btnAdd" style="display: none;">Install <i class="fa-solid fa-cloud-arrow-down"></i></button>
+      </div>
+      </aside>
+      <section class="pri-content">
+        <article class="home active section" id="home">
+          <div class="container">
+            <div class="row">
+              <div class="home-text padd-15">
+                <h3 class="welcome">
+                  Hello, my name is
+                  <span class="name">Thijs van den Broek</span>
+                </h3>
+                <h3 class="about-short">
+                  I am a <span class="typing">web developer</span>
+                </h3>
+                <p>
+                  I'm a student at Fontys University in Eindhoven, specializing in Information and Communication Technology with a focus on media.
+                </p>
+                <a href="#outcomes" class="btn contact-me">Outcomes</a>
+              </div>
+              <div class="home-img padd-15 home-img-container">
+                <img src="images/prof.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </article>
+        <section class="read section" id="read">
+          <section class="containerr" id="Gener">
+           <div class="boxblog">
+               <article class="documentation2" >
+                 <div class="two alt-two">
+                     <h1>
+                       Reading guide
+                     </h1>
+                   </div>
+                   <div class="hero7"></div>
+       
+                   <main class="main">
+                     <article class="profile">
+                       <div class="img-container"></div>
+                       <hgroup class="text">
+                         <h3>Thijs</h3>
+                         <p>2023</p>
+                       </hgroup>
+                     </article>
+                 <h4 class="h41"><span class="skin">Welcome</span></h4>
+                 <figure class="imagecontainer">
+                   <figcaption class="textboxx">
+                     <p>Welcome to my portfolio! This platform offers you two distinct ways to explore my work: span by <span class="skin">Learning Outcome</span> or by <span class="skin">Project</span>.</p>
+                     <p>If you choose to navigate <span class="skin">by Project</span>, you’ll gain a structured overview of my accomplishments within each specific project. This approach provides a cohesive picture of my work, allowing you to see the progression and interconnectedness of my efforts within each individual project.</p>
+                     <p>On the other hand, if you opt to view <span class="skin">by Learning Outcome</span>, you’ll see a comprehensive collection of all my work from this semester, organized according to each learning outcome. While this method may seem a bit cluttered due to the volume of content, it offers a chronological journey through my learning process, showcasing everything I’ve done from the beginning to the end of the semester.</p>
+                     <p>Checkout my Portfolio abstract:</p>
+                     <a href="https://docs.google.com/document/d/1ewYxZyRqg3oT3BIBFeWewpATIcopzIAl/edit?usp=sharing&ouid=109477893232533586303&rtpof=true&sd=true" class="btn" target="_blank">Portfolio abstract</a>
+                   </figcaption>
+                 </figure>
+               </article>
+             </main>
+           </div>
+         </section>
+       </section>
+        <section class="about section" id="about">
+          <h2 class="about-title">About <span class="span">Me</span></h2>
+          <figure class="home-imgg">
+            <div class="outer-circle">
+              <span class="inner-circle"
+                ><img
+                  src="images/profilemain-removebg-preview.png"
+                  alt="Profile-picture"
+              /></span>
+            </div>
+          </figure>
+          <div class="about-content padd-15">
+            <h2>Media student</h2>
+            <p class="padd-15">
+              As an ICT student in the media profile, I am passionate about creating beautiful and functional user interfaces. My goal is to become a frontend developer, and I have a solid foundation in HTML and CSS. With an eye for design and user experience, I work on several projects to stay up-to-date with the latest developments in the field. I am excited about the future of frontend development and eager to contribute my skills to the industry.
+            </p>
+            <div class="btn-box btns">
+              <a href="#projects" class="btn contact-me2">Projects</a>
+            </div>
+          </div>
+        </section>
+        <section class="section" id="outcomes">
+          <div class="title">
+          <h2 class="about-title">
+            Learning <span class="span">Outcomes</span>
+          </h2>
+        </div>
+          <p class="pstyle center">View all content organized by learning outcomes, with each outcome displayed on a dedicated page</p>
+          <div class="outcome-container">
+            <article class="box" style="--clr: #ec1839">
+              <header class="content2">
+                <div class="icon">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div class="text2">
+                  <h3>interactive media products</h3>
+                  <p>
+                    Click the button down below to checkout each project within this learning outcome!
+                  </p>
+                  <a href="lo/imp.html">read more</a>
+                </div>
+              </header>
+            </article>
+            <article class="box" style="--clr: #ec1839">
+              <header class="content2">
+                <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+                <div class="text2">
+                  <h3>Transferable production</h3>
+                  <p>
+                    Click the button down below to checkout each project within this learning outcome!
+                  </p>
+                  <a href="lo/tp.html">read more</a>
+                </div>
+              </header>
+            </article>
+            <article class="box" style="--clr: #ec1839">
+              <header class="content2">
+                <div class="icon"><i class="fas fa-redo-alt"></i></div>
+                <div class="text2">
+                  <h3>Creative iterations</h3>
+                  <p>
+                    Click the button down below to checkout each project within this learning outcome!
+                  </p>
+                  <a href="lo/ci.html">read more</a>
+                </div>
+              </header>
+            </article>
+            <article class="box" style="--clr: #ec1839">
+              <header class="content2">
+                <div class="icon"><i class="fas fa-check-circle"></i></div>
+                <div class="text2">
+                  <h3>Professional standards</h3>
+                  <p>
+                    Click the button down below to checkout each project within this learning outcome!
+                  </p>
+                  <a href="lo/ps.html">read more</a>
+                </div>
+              </header>
+            </article>
+            <article class="box" style="--clr: #ec1839">
+              <header class="content2">
+                <div class="icon"><i class="fa-solid fa-user-tie"></i></div>
+                <div class="text2">
+                  <h3>Personal leadership</h3>
+                  <p>
+                    Click the button down below to checkout each project within this learning outcome!
+                  </p>
+                  <a href="lo/pl.html">read more</a>
+                </div>
+              </header>
+            </article>
+          </div>
+        </section>
+        <section class="projects section" id="projects">
+          <div class="title">
+          <h2 class="about-title">
+             projects
+          </h2>
+        </div>
+          <p class="pstyle center">View all content organized by projects, with each project displayed on a dedicated page</p>
+          <div class="portfolio-content">
+            <a href="html-projects/passion.html" class="row-link">
+              <div class="roww">
+                <img src="images/passionmain.png" alt="" />
+                <section class="main-row">
+                  <div class="row-text">
+                    <h6>Passion Project</h6>
+                  </div>
+                  <div class="row-icon">
+                    <i class="fa-solid fa-business-time"></i>
+                  </div>
+                </section>
+                <h3>Please click this box to access all passion project related items.</h3>
+              </div>
+            </a>
+            <a href="html-projects/mproject.html" class="row-link">
+              <div class="roww">
+                <img src="images/scan3.png" alt="" />
+                <section class="main-row">
+                  <div class="row-text">
+                    <h6>Project Facial recognition</h6>
+                  </div>
+                  <div class="row-icon">
+                    <i class="fa-solid fa-business-time"></i>
+                  </div>
+                </section>
+                <h3>Please click this box to access all main project related items.</h3>
+              </div>
+            </a>
+            <a href="html-projects/project.html" class="row-link">
+              <div class="roww">
+                <img src="images/image.png" alt="" />
+                <section class="main-row">
+                  <div class="row-text">
+                    <h6>Main project (branding)</h6>
+                  </div>
+                  <div class="row-icon">
+                    <i class="fa-solid fa-business-time"></i>
+                  </div>
+                </section>
+                <h3>Please click this box to access all branding-related items</h3>
+              </div>
+            </a>
+            <a href="html-projects/portfolio.html">
+              <div class="roww">
+                <img src="images/portfolio.png" alt="" />
+                <div class="main-row">
+                  <div class="row-text">
+                    <h6>Portfolio</h6>
+                  </div>
+                  <div class="row-icon">
+                    <i class="fa-solid fa-folder"></i>
+                  </div>
+                </div>
+                <h3>Please click this box to acces all portolio-related items</h3>
+              </div>
+            </a>
+            <a href="html-projects/Development.html">
+              <div class="roww">
+                <img src="images/codeban.png" alt="" />
+                <div class="main-row">
+                  <div class="row-text">
+                    <h6>Development workshops</h6>
+                  </div>
+                  <div class="row-icon">
+                    <i class="fa-solid fa-code"></i>
+                  </div>
+                </div>
+                <h3>Please click this box to acces all workshops-realted items</h3>
+              </div>
+            </a>
+            <a href="html-projects/future.html" class="row-link">
+              <div class="roww">
+                <img src="images/future.png" alt="" />
+                <section class="main-row">
+                  <div class="row-text">
+                    <h6>About me (Future)</h6>
+                  </div>
+                  <div class="row-icon">
+                    <i class="fa-solid fa-rocket"></i>
+                  </div>
+                </section>
+                <h3>Please click this box to access content about me and my future.</h3>
+              </div>
+            </a>
+        </section>
+        <section class="random section"></section>
+    </main>
+    <div class="toggle-btn" id="btn">
+      <span id="btnText">Dark</span>
+      <i class="toggle-icon fa-solid fa-moon"></i>
+    </div>
+    <script src="js/test.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/darkmode.js"></script>
+    <script src="js/down.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+  </body>
+</html>
