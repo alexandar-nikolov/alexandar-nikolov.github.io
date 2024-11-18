@@ -1165,7 +1165,7 @@ a{
 }
 .roww:hover{
     transform: scale(1.01) translateY(-5px);
-    cursor: pointer;
+    cursor: none;
 }
 .pstyle {
     margin-top: 35px;
