@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   
     sr.reveal('.about-title, .about-title .span', { delay: 100, origin: 'top' });
-    sr.reveal(' .roww', { delay: 100, origin: 'left' }); // Change this line
+    sr.reveal(' .roww', { delay: 100, origin: 'left' }); 
     sr.reveal('.pstyle', { delay: 100, origin: 'left' });
     sr.reveal('.toggle-btn', { delay: 100, origin: 'right' });
     sr.reveal('.documentation', { delay: 50, origin: 'right' });

@@ -21,7 +21,7 @@ class Cursor {
         document.body.prepend(this.$outline);
         document.body.prepend(this.$dot);
 
-        // Set up element sizes
+        
         this.dotSize = this.$dot.offsetWidth;
         this.outlineSize = this.$outline.offsetWidth;
 
@@ -30,7 +30,7 @@ class Cursor {
     }
 
     setupEventListeners() {
-        // Anchor hovering
+        // Link hover effect
         document.querySelectorAll('a').forEach(el => {
             el.addEventListener('mouseover', () => {
                 this.cursorEnlarged = true;
@@ -42,7 +42,7 @@ class Cursor {
             });
         });
 
-        // Click events
+        
         document.addEventListener('mousedown', () => {
             this.cursorEnlarged = true;
             this.toggleCursorSize();
@@ -53,18 +53,18 @@ class Cursor {
         });
 
         document.addEventListener('mousemove', e => {
-            // Show the cursor
+            
             this.cursorVisible = true;
             this.toggleCursorVisibility();
 
-            // Position the dot
+            
             this.endX = e.pageX;
             this.endY = e.pageY;
             this.$dot.style.top = `${this.endY}px`;
             this.$dot.style.left = `${this.endX}px`;
         });
 
-        // Hide/show cursor
+        
         document.addEventListener('mouseenter', () => {
             this.cursorVisible = true;
             this.toggleCursorVisibility();

@@ -57,7 +57,7 @@ carousels.forEach((carousel, index) => {
         prevScrollLeft = carousel.scrollLeft;
     }
 
-    // Function to handle dragging movement
+    // Function to handle dragging
     const dragging = (e) => {
         if (!isDragStart) return;
         e.preventDefault();
@@ -68,7 +68,7 @@ carousels.forEach((carousel, index) => {
         showHideIcons();
     }
 
-    // Function to handle end of dragging
+    
     const dragStop = () => {
         isDragStart = false;
         carousel.classList.remove("dragging");
@@ -78,7 +78,7 @@ carousels.forEach((carousel, index) => {
         autoSlide();
     }
 
-    // Event listeners for mouse and touch events to enable dragging/swiping
+   
     carousel.addEventListener("mousedown", dragStart);
     carousel.addEventListener("touchstart", dragStart);
 
