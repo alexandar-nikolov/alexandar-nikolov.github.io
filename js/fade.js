@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
   
   function goBackTwoPages(event) {
-    event.preventDefault(); // Prevent default anchor behavior
+    event.preventDefault(); 
     window.history.back();
   }
   document.querySelector('.top a').addEventListener('click', function(event) {
