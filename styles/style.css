@@ -611,6 +611,7 @@ h3.about-short{
 }
 .hero2{
     height: 18rem;
+    background: url(../images/leadership.jpg) no-repeat center center / cover;
     border-radius: 30px;
     align-items: center;
     display: flex;
